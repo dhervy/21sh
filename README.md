@@ -12,7 +12,7 @@ En exécutant `make`, un exécutable nommé `21sh` sera compilé directement.
 
 ```c
 $> ls | cat -e // on va executer `ls` puis envoyer la sortit standard vers l'entrée stendard de `cat -e`
-$> echo "$PATH" > path.txt // on va ecrire cat -e ne recla valeur de PATH dans path.txt
+$> echo "$PATH" > path.txt // on va écrire cat -e ne recla valeur de PATH dans path.txt
 $> env -i ls -G
 $> cd ../test
 $> cat << EOF | cat -e
@@ -31,11 +31,11 @@ $> ls -l 1>&2 | cat -e // la sortit de `ls` est rediriger vers la sortit d'erreu
 * pipe `|`
 * heredoc `<<`
 * Double redirection `>>`
-* redirection `<` et `>`
-* agregateur  `>&`
-* multi commande `;`
-* Edittion de ligne 
-* autocompletion
+* Redirection `<` et `>`
+* Agrégateur  `>&`
+* Multi-commandes `;`
+* Edition de ligne 
+* Autocomplétion
 
 ## Bultin
 
@@ -47,10 +47,10 @@ $> ls -l 1>&2 | cat -e // la sortit de `ls` est rediriger vers la sortit d'erreu
 
 ## Controle
 
-* Copier `Alt + c` selectionner avec les fleche directionel puis pressez `Entrer`
-* Couper `Alt + x` selectionner avec les fleche directionel puis pressez `Entrer`
+* Copier `Alt + c` sélectionner avec les flêches directionelles puis pressez `Entrer`
+* Couper `Alt + x` sélectionner avec les flêches directionelles puis pressez `Entrer`
 * Coller `Alt + v`
-* autocompletion `Tab`
-* se deplacer de mots en mots `Alt + Fleche Droite,gauche`
-* se deplacer d'une ligne a l'autre `Alt + Fleche Haut,Bas`
-* naviguer dans l'historique `Fleche Haut,Bas`
+* Autocomplétion `Tab`
+* Se déplacer de mot en mot `Alt + Fleche Droite,gauche`
+* Se déplacer d'une ligne à l'autre `Alt + Fleche Haut,Bas`
+* Naviguer dans l'historique `Fleche Haut,Bas`
