@@ -10,7 +10,7 @@ executer `make`, un exécutable nommé `21sh` devrait compiler directement.
 
 `~ ./21sh`
 
-```
+```c
 $> ls | cat -e // on va executer `ls` puis envoyer la sortit standard vers l'entrée stendard de `cat -e`
 $> echo "$PATH" > path.txt // on va ecrire cat -e ne recla valeur de PATH dans path.txt
 $> env -i ls -G
@@ -33,7 +33,7 @@ $> ls -l 1>&2 | cat -e // la sortit de `ls` est rediriger vers la sortit d'erreu
 * Double redirection `>>`
 * redirection `<` et `>`
 * agregateur  `>&`
-* multi commande ';'
+* multi commande `;`
 * Edittion de ligne 
 
 ## Bultin
