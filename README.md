@@ -52,3 +52,4 @@ $> ls -l 1>&2 | cat -e // la sortit de `ls` est rediriger vers la sortit d'erreu
 * se deplacer de mots en mots `Alt + Fleche Droite,gauche`
 * se deplacer d'une ligne a l'autre `Alt + Fleche Haut,Bas`
 * naviguer dans l'historique `Fleche Haut,Bas`
+nbjb
