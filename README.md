@@ -28,8 +28,8 @@ $> ls -l 1>&2 | cat -e // la sortit de `ls` est rediriger vers la sortit d'erreu
 ```
 ## Feature
 
-* pipe `|`
-* heredoc `<<`
+* Pipe `|`
+* Heredoc `<<`
 * Double redirection `>>`
 * Redirection `<` et `>`
 * Agrégateur  `>&`
