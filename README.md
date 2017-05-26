@@ -1,10 +1,10 @@
 # 21sh
 
-Le but était de crée un shell qui executait des commande complexe et quelque bultin.
+Le but est de créer un shell qui exécute des commandes complexes et quelques bultins.
 
 ## Compiling
 
-executer `make`, un exécutable nommé `21sh` devrait compiler directement.
+En exécutant `make`, un exécutable nommé `21sh` sera compilé directement.
 
 ## Usgae
 
